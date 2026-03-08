@@ -30,7 +30,10 @@
       "Bash(npm run pack)",
       "Bash(git init)",
       "Bash(gh repo create GoDaddyInvoicesDownloader --public --source=. --description \"Windows desktop app that automates downloading GoDaddy invoice PDFs. Built with Electron, React, TypeScript, and Playwright.\")",
-      "Bash(git add -A)"
+      "Bash(git add -A)",
+      "Bash(git commit:*)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)"
     ]
   }
 }
