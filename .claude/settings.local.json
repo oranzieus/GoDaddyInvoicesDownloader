@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test -d \"D:/WebDev/GDInvoices\")",
+      "WebFetch(domain:www.godaddy.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm install --save playwright)",
+      "Bash(npm install --save-dev electron electron-builder react react-dom @types/react @types/react-dom typescript vite @vitejs/plugin-react concurrently)",
+      "Bash(npm install --save-dev cross-env)",
+      "Bash(npx tsc -p tsconfig.main.json --noEmit)",
+      "Bash(npx tsc -p tsconfig.renderer.json --noEmit)",
+      "Bash(npx tsc -p tsconfig.main.json)",
+      "Bash(npx vite build)",
+      "Bash(npx playwright install chromium)",
+      "Bash(python3 -c \":*)",
+      "Bash(node -e \":*)",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const i=c.indexOf\\(''3990199607''\\); console.log\\(c.substring\\(Math.max\\(0,i-1500\\), i+1500\\)\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const i=c.indexOf\\(''pagination''\\); if\\(i>=0\\) console.log\\(c.substring\\(Math.max\\(0,i-200\\), i+1500\\)\\); else console.log\\(''pagination not found''\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const i=c.indexOf\\(''50 of 62''\\); if\\(i>=0\\) console.log\\(c.substring\\(Math.max\\(0,i-500\\), i+1000\\)\\); else console.log\\(''not found''\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const i=c.indexOf\\(''Show More''\\); if\\(i>=0\\) console.log\\(c.substring\\(Math.max\\(0,i-300\\), i+500\\)\\); else console.log\\(''Show More not found''\\); const j=c.indexOf\\(''show-more''\\); if\\(j>=0\\) console.log\\(''---''\\); console.log\\(c.substring\\(Math.max\\(0,j-300\\), j+500\\)\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const patterns=[''load-more'',''loadMore'',''next-page'',''nextPage'',''show_more'',''showMore'',''more-receipts'']; patterns.forEach\\(p => { const i=c.indexOf\\(p\\); if\\(i>=0\\) console.log\\(p, '':'', c.substring\\(Math.max\\(0,i-100\\),i+200\\)\\); }\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const i=c.indexOf\\(''view_details''\\); if\\(i>=0\\) console.log\\(c.substring\\(Math.max\\(0,i-300\\), i+500\\)\\); else console.log\\(''not found''\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const patterns=[''print'',''Print'',''receipt-detail'',''detail-view'',''modal'',''overlay'']; patterns.forEach\\(p => { let i=0; let count=0; while\\(\\(i=c.indexOf\\(p,i\\)\\)>=0 && count<2\\) { console.log\\(p, '':'', c.substring\\(Math.max\\(0,i-50\\),i+150\\).replace\\(/\\\\n/g,'' ''\\)\\); i+=p.length; count++; } }\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); let i=0; while\\(\\(i=c.indexOf\\(''svg-container-print'',i\\)\\)>=0\\) { console.log\\(''---''\\); console.log\\(c.substring\\(Math.max\\(0,i-300\\),i+200\\)\\); i+=20; }\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); let i=0; while\\(\\(i=c.indexOf\\(''#svg-container-print'',i\\)\\)>=0\\) { console.log\\(''---''\\); console.log\\(c.substring\\(Math.max\\(0,i-500\\),i+200\\)\\); i+=20; }\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(node -e \"const fs=require\\(''fs''\\); const c=fs.readFileSync\\(process.argv[1],''utf-8''\\); const patterns=[''window.print'',''window.open'',''about:blank'',''printReceipt'',''print_receipt'',''printInvoice'']; patterns.forEach\\(p => { const i=c.indexOf\\(p\\); if\\(i>=0\\) console.log\\(p, '':'', c.substring\\(Math.max\\(0,i-200\\),i+300\\)\\); else console.log\\(p, '': NOT FOUND''\\); }\\);\" \"C:\\\\Users\\\\Oranzie\\\\Downloads\\\\My Account _ Billing.html\")",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run build)",
+      "Bash(npm install)",
+      "Bash(npm run pack)",
+      "Bash(git init)",
+      "Bash(gh repo create GoDaddyInvoicesDownloader --public --source=. --description \"Windows desktop app that automates downloading GoDaddy invoice PDFs. Built with Electron, React, TypeScript, and Playwright.\")",
+      "Bash(git add -A)"
+    ]
+  }
+}
